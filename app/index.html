@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>设计提案 OS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#F5F2ED">
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <div class="gen-overlay" id="genOverlay">
+    <div class="gen-progress">
+      <div class="gen-progress-title">正在生成提案</div>
+      <div class="gen-steps" id="genSteps"></div>
+    </div>
+  </div>
+  <div class="locked-overlay" id="lockedOverlay">
+    <div class="locked-card">
+      <div class="locked-icon">&#10003;</div>
+      <div class="locked-title">方向已锁定</div>
+      <div class="locked-desc">您的风格方向已确认，可以导出提案或继续浏览。</div>
+      <button class="btn-primary" id="lockedContinueBtn" style="padding:14px 32px;font-size:0.9375rem;">继续导出</button>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+  <div class="share-bar" id="shareBar">
+    <div class="share-bar-info">
+      <div class="share-bar-label">分享</div>
+      <div class="share-bar-url" id="shareUrl"></div>
+    </div>
+    <div class="share-bar-actions">
+      <button class="btn-share copy" id="shareCopyBtn">复制链接</button>
+      <button class="btn-share qr" id="shareQrBtn">二维码</button>
+      <button class="btn-share native-share" id="shareNativeBtn">分享</button>
+    </div>
+    <div class="share-bar-network-hint" id="shareNetworkHint"></div>
+  </div>
+  <div class="qr-modal" id="qrModal">
+    <div class="qr-modal-card">
+      <div class="qr-modal-title">扫码查看</div>
+      <div class="qr-modal-desc">在同一网络下用任何设备打开此提案</div>
+      <div class="qr-modal-desc" id="qrNetworkUrl" style="margin-top:8px;font-family:var(--font-mono);font-size:0.75rem;word-break:break-all;color:var(--color-accent);"></div>
+      <div class="qr-canvas-wrap" id="qrCanvas"></div>
+      <button class="qr-modal-close" id="qrModalClose">关闭</button>
+    </div>
+  </div>
+  <div class="mobile-bottom-nav" id="mobileBottomNav">
+    <div class="mobile-bottom-nav-items" id="mobileNavItems"></div>
+  </div>
+  <script src="js/state.js"></script>
+  <script src="js/generator.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/components/generate.js"></script>
+  <script src="js/components/overview.js"></script>
+  <script src="js/components/style-direction.js"></script>
+  <script src="js/components/design-system.js"></script>
+  <script src="js/components/space-strategy.js"></script>
+  <script src="js/components/budget-layer.js"></script>
+  <script src="js/components/references.js"></script>
+  <script src="js/components/decision-panel.js"></script>
+  <script src="js/components/export.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
