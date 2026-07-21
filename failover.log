@@ -1,0 +1,278 @@
+[2026-07-21 20:34:45] ❌ 主力失败 (1/2): exception: IncompleteRead(368 bytes read, 8 more expected)
+[2026-07-21 20:34:52] ❌ 主力失败 (2/2): exception: IncompleteRead(368 bytes read, 8 more expected)
+[2026-07-21 20:34:57] 备用 vertex-adc/gemini-2.5-flash 不可用: HTTP 502: 
+[2026-07-21 20:35:02] 备用 vertex-adc/gemini-2.5-flash-lite 不可用: HTTP 502: 
+[2026-07-21 20:35:02] ❌ 所有备用模型均不可用
+[2026-07-21 20:36:07] ❌ 主力失败 (3/2): exception: IncompleteRead(368 bytes read, 8 more expected)
+[2026-07-21 20:36:09] 备用 vertex-adc/gemini-2.5-flash 不可用: unexpected response: 
+[2026-07-21 20:36:12] ✅ 故障切换: yuanyuaicloud/deepseek-v4-pro -> vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 20:39:08] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 20:39:09] 备用健康 (1/2)
+[2026-07-21 20:42:08] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 20:42:09] 备用健康 (2/2)
+[2026-07-21 20:42:12] 回切失败，主力仍不可用: exception: IncompleteRead(368 bytes read, 8 more expected)
+[2026-07-21 20:45:08] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 20:45:09] 备用健康 (1/2)
+[2026-07-21 20:48:08] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 20:48:09] 备用健康 (2/2)
+[2026-07-21 20:48:10] 回切失败，主力仍不可用: exception: IncompleteRead(368 bytes read, 8 more expected)
+[2026-07-21 20:51:08] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 20:51:09] 备用健康 (1/2)
+[2026-07-21 20:54:08] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 20:54:09] 备用健康 (2/2)
+[2026-07-21 20:54:10] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211254101175596228268d9d64NSsaPyA)","type":"new_api_error"}}
+[2026-07-21 20:57:08] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 20:57:10] 备用健康 (1/2)
+[2026-07-21 21:00:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:00:10] 备用健康 (2/2)
+[2026-07-21 21:00:10] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211300101819075888268d9d649HISrby)","type":"new_api_error"}}
+[2026-07-21 21:03:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:03:14] 备用模型也异常: HTTP 502: 
+[2026-07-21 21:06:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:06:14] 备用模型也异常: HTTP 502: 
+[2026-07-21 21:09:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:09:10] 备用健康 (1/2)
+[2026-07-21 21:12:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:12:10] 备用健康 (2/2)
+[2026-07-21 21:12:10] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211312103869469358268d9d6qjTTmyMI)","type":"new_api_error"}}
+[2026-07-21 21:15:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:15:10] 备用健康 (1/2)
+[2026-07-21 21:18:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:18:10] 备用健康 (2/2)
+[2026-07-21 21:18:10] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211318105855207878268d9d6hwTFMRBg)","type":"new_api_error"}}
+[2026-07-21 21:21:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:21:11] 备用健康 (1/2)
+[2026-07-21 21:24:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:24:10] 备用健康 (2/2)
+[2026-07-21 21:24:11] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211324109911242668268d9d6Vr00rpae)","type":"new_api_error"}}
+[2026-07-21 21:27:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:27:11] 备用健康 (1/2)
+[2026-07-21 21:30:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:30:11] 备用健康 (2/2)
+[2026-07-21 21:30:11] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211330114098350448268d9d6lS2h8G8L)","type":"new_api_error"}}
+[2026-07-21 21:33:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:33:10] 备用健康 (1/2)
+[2026-07-21 21:36:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:36:10] 备用健康 (2/2)
+[2026-07-21 21:36:11] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211336110305640298268d9d6nn6TH1eD)","type":"new_api_error"}}
+[2026-07-21 21:39:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:39:10] 备用健康 (1/2)
+[2026-07-21 21:42:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:42:11] 备用健康 (2/2)
+[2026-07-21 21:42:11] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211342112437713698268d9d6su7P2r0I)","type":"new_api_error"}}
+[2026-07-21 21:45:09] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:45:11] 备用健康 (1/2)
+[2026-07-21 21:48:10] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:48:11] 备用健康 (2/2)
+[2026-07-21 21:48:11] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211348114059255618268d9d6pARM3BBG)","type":"new_api_error"}}
+[2026-07-21 21:51:10] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:51:11] 备用健康 (1/2)
+[2026-07-21 21:54:10] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:54:11] 备用健康 (2/2)
+[2026-07-21 21:54:11] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211354113929762018268d9d6K03YyXsk)","type":"new_api_error"}}
+[2026-07-21 21:57:10] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 21:57:11] 备用健康 (1/2)
+[2026-07-21 22:00:10] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:00:12] 备用健康 (2/2)
+[2026-07-21 22:00:12] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211400121809411018268d9d6uWe3ilIP)","type":"new_api_error"}}
+[2026-07-21 22:03:10] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:03:11] 备用健康 (1/2)
+[2026-07-21 22:06:10] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:06:11] 备用健康 (2/2)
+[2026-07-21 22:06:11] 回切失败，主力仍不可用: HTTP 403: {"error":{"code":"","message":"This token has no access to model glm-v4-pro (request id: 202607211406114603431098268d9d6ulNrC56c)","type":"new_api_error"}}
+[2026-07-21 22:08:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:08:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:11:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:11:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:14:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:14:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:17:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:17:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:20:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:20:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:23:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:23:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:26:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:26:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:29:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:29:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:32:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:32:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:35:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:35:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:38:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:38:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:41:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:41:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:44:43] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:44:48] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:47:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:47:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:50:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:50:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:53:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:53:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:56:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:56:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 22:59:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 22:59:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:02:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:02:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:05:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:05:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:08:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:08:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:11:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:11:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:14:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:14:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:17:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:17:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:20:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:20:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:23:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:23:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:26:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:26:49] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:29:44] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:29:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:32:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:32:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:35:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:35:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:38:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:38:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:41:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:41:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:44:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:44:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:47:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:47:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:50:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:50:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:53:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:53:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:56:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:56:50] 备用模型也异常: HTTP 502: 
+[2026-07-21 23:59:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-21 23:59:50] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:02:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:02:50] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:05:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:05:50] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:08:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:08:50] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:11:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:11:50] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:14:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:14:50] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:17:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:17:50] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:20:45] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:20:50] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:23:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:23:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:26:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:26:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:29:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:29:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:32:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:32:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:35:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:35:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:38:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:38:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:41:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:41:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:44:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:44:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:47:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:47:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:50:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:50:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:53:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:53:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:56:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:56:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 00:59:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 00:59:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:02:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:02:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:05:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:05:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:08:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:08:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:11:46] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:11:51] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:14:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:14:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:17:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:17:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:20:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:20:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:23:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:23:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:26:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:26:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:29:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:29:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:32:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:32:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:35:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:35:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:38:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:38:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:41:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:41:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:44:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:44:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:47:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:47:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:50:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:50:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:53:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:53:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:56:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:56:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 01:59:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 01:59:52] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:02:47] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:02:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:05:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:05:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:08:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:08:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:11:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:11:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:14:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:14:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:17:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:17:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:20:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:20:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:23:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:23:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:26:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:26:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:29:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:29:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:32:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:32:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:35:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:35:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:38:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:38:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:41:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:41:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:44:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:44:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:47:48] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:47:53] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:50:49] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:50:54] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:53:49] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:53:54] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:56:49] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:56:54] 备用模型也异常: HTTP 502: 
+[2026-07-22 02:59:49] 当前在备用模型上: vertex-adc/gemini-2.5-flash-lite
+[2026-07-22 02:59:54] 备用模型也异常: HTTP 502: 

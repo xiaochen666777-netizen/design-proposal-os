@@ -1,0 +1,83 @@
+﻿{
+    "patterns":  {
+                     "common_mistakes":  [
+
+                                         ],
+                     "frequent_requests":  [
+
+                                           ],
+                     "recurring_tasks":  [
+
+                                         ]
+                 },
+    "identity":  {
+                     "timezone":  "Asia/Shanghai",
+                     "name":  "liguoqing",
+                     "language":  "zh-CN",
+                     "preferred_name":  "十一哥"
+                 },
+    "meta":  {
+                 "created_at":  "2026-07-21T09:19:24+08:00",
+                 "version":  "1.0.0",
+                 "last_updated":  "2026-07-21T09:23:39+08:00"
+             },
+    "preferences":  {
+                        "communication":  {
+                                              "sign_off":  "",
+                                              "email_tone":  "casual",
+                                              "response_length":  "concise"
+                                          },
+                        "work":  {
+                                     "tools":  [
+                                                   "Codex",
+                                                   "AutoCAD",
+                                                   "Figma",
+                                                   "VS Code",
+                                                   "PowerShell",
+                                                   "GitHub",
+                                                   "小红书"
+                                               ],
+                                     "working_hours":  {
+                                                           "start":  "",
+                                                           "end":  ""
+                                                       },
+                                     "stacks":  [
+                                                    "室内设计",
+                                                    "高定木作",
+                                                    "小红书内容创作",
+                                                    "CAD",
+                                                    "Python",
+                                                    "JavaScript/HTML/CSS",
+                                                    "PowerShell"
+                                                ]
+                                 },
+                        "scheduling":  {
+                                           "buffer_between_meetings_minutes":  15,
+                                           "preferred_meeting_times":  [
+
+                                                                       ],
+                                           "protected_hours":  [
+
+                                                               ]
+                                       }
+                    },
+    "episodic":  [
+                     {
+                         "date":  "2026-07-21T09:19:24+08:00",
+                         "tags":  [
+                                      "memory",
+                                      "onboarding",
+                                      "workflow",
+                                      "interior-design",
+                                      "xiaohongshu"
+                                  ],
+                         "summary":  "安装 Persistent User Memory 技能，初始化记忆。通过分析历史项目梳理出用户工作流，用户确认核心领域为室内设计、高定木作、小红书内容创作，称呼为十一哥",
+                         "outcome":  "completed"
+                     }
+                 ],
+    "relationships":  {
+                          "contacts":  [
+
+                                       ]
+                      }
+}

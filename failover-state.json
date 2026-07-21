@@ -1,0 +1,11 @@
+{
+  "consecutive_failures": 0,
+  "consecutive_fallback_health": 0,
+  "last_switch": {
+    "from": "yuanyuaicloud/deepseek-v4-pro",
+    "to": "vertex-adc/gemini-2.5-flash-lite",
+    "at": "2026-07-21 20:36:12"
+  },
+  "current_fallback": "vertex-adc/gemini-2.5-flash-lite",
+  "primary_cooldown_until": 1784643071
+}
