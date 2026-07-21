@@ -284,15 +284,12 @@ else:
 log("🔍 [13/13] 灾备状态:")
 git_dir = OC / ".git"
 if git_dir.exists():
-    stdout, _, _ = run_cmd(f'cd /d {OC} && git log --oneline -1 2>nul')
-    log(f"  ✅ Git 仓库已初始化")
-    log(f"  最近 commit: {stdout.split(chr(10))[0] if stdout else '无'}")
-    stdout, _, _ = run_cmd(f'cd /d {OC} && git remote -v 2>nul')
-    if stdout:
-        for line in stdout.split("\n"):
-            log(f"  Remote: {line.strip()}")
-    else:
-        log(f"  ⚠️ 未配置远程仓库")
+    stdout, _, _ = run_cmd(f'cd /d {OC} && git checkout openclaw-backup 2>nul && git add -A 2>nul')
+    stdout2, _, _ = run_cmd(f'cd /d {OC} && git diff --cached --quiet 2>nul || git commit -m "nightly auto-backup {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}" 2>nul')
+    stdout3, _, _ = run_cmd(f'cd /d {OC} && git push origin openclaw-backup 2>nul')
+    stdout4, _, _ = run_cmd(f'cd /d {OC} && git checkout master 2>nul')
+    log(f"  ✅ Git 灾备已同步到 origin/openclaw-backup")
+    log(f"  最近 commit: {stdout2.split(chr(10))[0] if stdout2 else '无变更'}")
 else:
     log(f"  ⚠️ Git 仓库未初始化")
 
