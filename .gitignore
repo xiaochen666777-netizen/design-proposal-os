@@ -1,0 +1,15 @@
+# 临时文件
+*.tmp
+*.bak
+*.bak*
+devices/*.tmp
+
+# 媒体/日志/缓存
+media/
+logs/
+completions/
+canvas/
+
+# 系统文件
+Thumbs.db
+.DS_Store

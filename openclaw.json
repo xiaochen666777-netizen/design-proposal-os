@@ -1,0 +1,67 @@
+{
+    "mcp": {
+        "servers": {
+            "codebase-memory-mcp": {
+                "enabled": true,
+                "command": "C:/Users/liguoqing/.local/bin/codebase-memory-mcp.exe",
+                "args": []
+            }
+        }
+    },
+    models: {
+      "mode": "merge",
+      "providers": {
+        "deepseek": {
+          "baseUrl": "https://yuanyuaicloud.cn/v1",
+          "apiKey": "sk-IHYxKUCEeSa5abE3WnXGnrhOtiojZ7YLSStsVt5XxiNL8tAp",
+          "api": "openai-completions",
+          "models": [
+            {
+              "id": "deepseek-v4-pro",
+              "name": "deepseek-v4-pro",
+              "cost": {
+                "input": 1.68,
+                "output": 3.36
+              },
+              "contextWindow": 1000000
+            }
+          ]
+        },
+        "openclaw-yuanyuaicloud": {
+          "baseUrl": "https://yuanyuaicloud.cn/v1",
+          "apiKey": "sk-IHYxKUCEeSa5abE3WnXGnrhOtiojZ7YLSStsVt5XxiNL8tAp",
+          "api": "openai-completions",
+          "models": [
+            {
+              "id": "deepseek-v4-pro",
+              "name": "deepseek-v4-pro",
+              "cost": {
+                "input": 1.68,
+                "output": 3.36
+              },
+              "contextWindow": 1000000
+            },
+            {
+              "id": "glm-5.2",
+              "name": "glm-5.2",
+              "cost": {
+                "input": 0.0,
+                "output": 0.0
+              },
+              "contextWindow": 128000
+            }
+          ]
+        }
+      }
+    },
+    agents: {
+      "defaults": {
+        "model": {
+          "primary": "openclaw-yuanyuaicloud/deepseek-v4-pro",
+          "fallbacks": [
+            "openclaw-yuanyuaicloud/glm-5.2"
+          ]
+        }
+      }
+    }
+}
